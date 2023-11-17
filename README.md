@@ -7,7 +7,7 @@ Dashtoon Assignment is a web application that utilizes neural style transfer to 
 <b>Web Application:</b> Access the style transfer functionality through a user-friendly web interface powered by streamlit. \
 <b>Demonstration Notebook:</b> Explore and understand the style transfer process with the provided Jupyter Notebook.
 ## Repository Contents
-- <b>app.py:</b> Main script for running the Flask-based web application. 
+- <b>app.py:</b> Main script for running the streamlit-based web application. 
 - <b>model.py:</b> Script defining the neural network model for style transfer using PyTorch.
 - <b>transfering-style.ipynb:</b> Jupyter Notebook demonstrating the style transfer process with sample images.
 - <b>requirements.txt:</b> List of required Python packages for the project.
