@@ -1,12 +1,12 @@
-Dashtoon Assignment
-Overview
-Dashtoon Assignment is a web application that utilizes neural style transfer to transform ordinary images into artistic masterpieces. This project is implemented in Python, leveraging Jupyter Notebook for demonstration, Flask for web application functionality, and PyTorch for the neural network model.
+# Dashtoon Assignment
+## Overview
+Dashtoon Assignment is a web application that utilizes neural style transfer to transform ordinary images into artistic masterpieces. This project is implemented in Python, leveraging Jupyter Notebook for demonstration, Streamlit for web application functionality, and PyTorch for the neural network model.
 
-Features
-Style Transfer: Apply artistic styles to images using neural style transfer techniques.
-Web Application: Access the style transfer functionality through a user-friendly web interface powered by Flask.
-Demonstration Notebook: Explore and understand the style transfer process with the provided Jupyter Notebook.
-Repository Contents
+## Features
+<b>Style Transfer:</b>  Apply artistic styles to images using neural style transfer techniques. 
+<b>Web Application:</b> Access the style transfer functionality through a user-friendly web interface powered by streamlit.\\
+<b>Demonstration Notebook:</b> Explore and understand the style transfer process with the provided Jupyter Notebook.\\
+## Repository Contents
 app.py: Main script for running the Flask-based web application.
 model.py: Script defining the neural network model for style transfer using PyTorch.
 transfering-style.ipynb: Jupyter Notebook demonstrating the style transfer process with sample images.
