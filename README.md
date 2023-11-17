@@ -3,39 +3,29 @@
 Dashtoon Assignment is a web application that utilizes neural style transfer to transform ordinary images into artistic masterpieces. This project is implemented in Python, leveraging Jupyter Notebook for demonstration, Streamlit for web application functionality, and PyTorch for the neural network model.
 
 ## Features
-<b>Style Transfer:</b>  Apply artistic styles to images using neural style transfer techniques. 
-<b>Web Application:</b> Access the style transfer functionality through a user-friendly web interface powered by streamlit.\\
-<b>Demonstration Notebook:</b> Explore and understand the style transfer process with the provided Jupyter Notebook.\\
+<b>Style Transfer:</b>  Apply artistic styles to images using neural style transfer techniques. \
+<b>Web Application:</b> Access the style transfer functionality through a user-friendly web interface powered by streamlit. \
+<b>Demonstration Notebook:</b> Explore and understand the style transfer process with the provided Jupyter Notebook.
 ## Repository Contents
-app.py: Main script for running the Flask-based web application.
-model.py: Script defining the neural network model for style transfer using PyTorch.
-transfering-style.ipynb: Jupyter Notebook demonstrating the style transfer process with sample images.
-requirements.txt: List of required Python packages for the project.
-Macaron05_dark.jpg: Sample style image used in the demonstration.
-5_6141221011808322511.jpeg: Sample content image used in the demonstration.
-.gitignore: Specification of files and directories to be ignored by Git.
-Getting Started
-Install the required dependencies by running:
+- <b>app.py:</b> Main script for running the Flask-based web application. 
+- <b>model.py:</b> Script defining the neural network model for style transfer using PyTorch.
+- <b>transfering-style.ipynb:</b> Jupyter Notebook demonstrating the style transfer process with sample images.
+- <b>requirements.txt:</b> List of required Python packages for the project.
 
-bash
-Copy code
+## Getting Started
+- Install the required dependencies by running:
+
+```bash
 pip install -r requirements.txt
-Run the web application using:
+```
+- Run the web application using:
 
-bash
-Copy code
-python app.py
-Access the application in your web browser at http://localhost:5000.
+```bash
+streamlit run app.py
+```
+- Access the application in your web browser at http://localhost:8501
 
-Demonstration
-Explore the style transfer process and experiment with different images by following the steps outlined in the transfering-style.ipynb notebook.
+## Demonstration
+Explore the style transfer process and experiment with different images by following the steps outlined in the transfering-style.ipynb notebook. \
+you can access the deployed version of this app -> https://neural-style-transfer-dashtoon-assignment.streamlit.app/
 
-Contributing
-Feel free to contribute by submitting bug reports, feature requests, or pull requests. Your input is highly valued.
-
-License
-This project is licensed under the MIT License.
-
-Acknowledgments
-Thanks to [Author Name] for [specific contribution or inspiration].
-Feel free to customize this template based on the specifics of your project and any additional information you'd like to include!
